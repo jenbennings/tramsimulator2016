@@ -1,0 +1,13 @@
+{
+  "name": "tramsimulator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "firebase": "^2.3.2",
+    "react-native": "^0.17.0",
+    "react-native-sound": "^0.7.3"
+  }
+}
