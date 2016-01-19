@@ -6,7 +6,6 @@ var {
   StyleSheet,
   Text,
   Image,
-  Switch,
   TouchableHighlight,
   View,
 } = React;
@@ -29,7 +28,10 @@ var DingToggle = React.createClass({
 
 var tramsimulator = React.createClass({
   getInitialState: function() {
-    return { dings: 0, old: true };
+    return {
+      dings: 0,
+      old: true
+    };
   },
 
   componentWillMount: function() {
