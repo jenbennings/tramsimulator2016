@@ -1,18 +1,16 @@
 'use strict';
 
 const React = require('react-native');
-const { Text, TouchableHighlight } = React;
+const { Image, TouchableWithoutFeedback } = React;
 const styles = require('../styles.js');
 
 class DingToggle extends React.Component {
   render() {
-    var text = this.props.old ? 'old' : 'new';
+    var img = this.props.old ? <Image style={styles.toggle} source={require('../toggle.png')} /> : <Image style={styles.toggle} source={require('../toggle-alt.png')} />;
     return (
-      <TouchableHighlight style={styles.toggle} onPress={this.props.toggleSound}>
-        <Text>
-          {text}
-        </Text>
-      </TouchableHighlight>
+      <TouchableWithoutFeedback style={styles.toggle} onPress={this.props.toggleSound}>
+        { img }
+      </TouchableWithoutFeedback>
     )
   }
 }
