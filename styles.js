@@ -114,7 +114,7 @@ var styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   toggleTitle: {
-    fontFamily: (Dimensions.get('window').height >= 200) ? 'Avenir-Medium' : 'DS-Digital-Italic',
+    fontFamily: 'Avenir-Medium',
     fontSize: 12,
     color: '#D3D3D3'
   },
