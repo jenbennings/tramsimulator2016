@@ -3,6 +3,8 @@
 const React = require('react-native')
 const { StyleSheet } = React
 
+import Dimensions from 'Dimensions';
+
 var styles = StyleSheet.create({
   appContainer: {
     flex: 1,
@@ -40,15 +42,10 @@ var styles = StyleSheet.create({
   },
   header: {
     width: 200,
-    height: 120,
-    marginTop: 30,
+    height: (Dimensions.get('window').height == 568) ? 80 : 120,
+    marginTop: (Dimensions.get('window').height == 568) ? 20 : 30,
     marginBottom: 10,
     resizeMode: 'contain'
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10
   },
   counterBackground: {
     backgroundColor: '#8A9089',
@@ -103,7 +100,7 @@ var styles = StyleSheet.create({
     borderColor: "#919191",
     borderRadius: 5,
     alignItems: "center",
-    padding: 40,
+    padding: (Dimensions.get('window').height == 568) ? 20 : 40,
     marginBottom: 20,
     width: 260
   },
@@ -117,7 +114,7 @@ var styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   toggleTitle: {
-    fontFamily: 'Avenir-Medium',
+    fontFamily: (Dimensions.get('window').height >= 200) ? 'Avenir-Medium' : 'DS-Digital-Italic',
     fontSize: 12,
     color: '#D3D3D3'
   },
