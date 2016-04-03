@@ -41,10 +41,10 @@ var styles = StyleSheet.create({
     resizeMode: 'contain'
   },
   header: {
-    width: 200,
-    height: (Dimensions.get('window').height == 568) ? 80 : 120,
-    marginTop: (Dimensions.get('window').height == 568) ? 20 : 30,
-    marginBottom: 10,
+    width: 180,
+    height: 120,
+    marginTop: 30,
+    marginBottom: 20,
     resizeMode: 'contain'
   },
   counterBackground: {
@@ -56,14 +56,12 @@ var styles = StyleSheet.create({
   },
   dings: {
     fontSize: 24,
-    fontFamily: 'DS-Digital-Italic',
     color: '#3C3C3C',
     textAlign: 'center',
     backgroundColor: 'transparent'
   },
   dingsShadow: {
     fontSize: 24,
-    fontFamily: 'DS-Digital-Italic',
     color: '#737373',
     textAlign: 'center',
     position: 'absolute',
@@ -90,18 +88,13 @@ var styles = StyleSheet.create({
     height: 116,
     borderRadius: 58
   },
-  toggle: {
-    borderRadius: 35,
-    width: 70,
-    height: 70
-  },
   dingContainer: {
     borderWidth: 1,
     borderColor: "#919191",
     borderRadius: 5,
     alignItems: "center",
     padding: (Dimensions.get('window').height == 568) ? 20 : 40,
-    marginBottom: 20,
+    marginBottom: 10,
     width: 260
   },
   toggleContainer: {
@@ -114,7 +107,6 @@ var styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   toggleTitle: {
-    fontFamily: 'Avenir-Medium',
     fontSize: 12,
     color: '#D3D3D3'
   },
@@ -129,7 +121,6 @@ var styles = StyleSheet.create({
     borderRadius: 2
   },
   counterTitle: {
-    fontFamily: 'Avenir-Medium',
     fontSize: 12,
     color: '#D3D3D3',
     marginBottom: 15,

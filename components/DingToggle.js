@@ -1,8 +1,7 @@
 'use strict';
 
 const React = require('react-native');
-const { Image, TouchableWithoutFeedback } = React;
-const styles = require('../styles.js');
+const { Image, TouchableWithoutFeedback, StyleSheet } = React;
 
 class DingToggle extends React.Component {
   render() {
@@ -14,5 +13,13 @@ class DingToggle extends React.Component {
     )
   }
 }
+
+var styles = StyleSheet.create({
+  toggle: {
+    borderRadius: 35,
+    width: 70,
+    height: 70
+  },
+});
 
 module.exports = DingToggle;

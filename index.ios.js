@@ -5,7 +5,7 @@ const { AppRegistry, Text, Image, TouchableHighlight, View } = React;
 const Firebase = require('firebase');
 const Sound = require('react-native-sound');
 const DingToggle = require('./components/DingToggle');
-const styles = require('./styles.js');
+const styles = require('./styles/ios.js');
 
 
 class tramsimulator extends React.Component {
