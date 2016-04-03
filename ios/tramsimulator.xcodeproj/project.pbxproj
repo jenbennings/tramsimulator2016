@@ -17,15 +17,15 @@
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		63CFAE7081EE4FD89AE0D5C0 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E09D5691CE7B436B8B663FF5 /* libRNSound.a */; };
+		69E42B1EC9A741CF955682A0 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A3D1CED38A477299F92F67 /* libRNSound.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		ED6575B11CA738300061EDC5 /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = ED6575B01CA738300061EDC5 /* DS-DIGII.TTF */; };
-		EDF263211CA7370700133389 /* A_Class_one_gongl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDF2631F1CA7370700133389 /* A_Class_one_gongl.mp3 */; };
-		EDF263221CA7370700133389 /* Citadis_one_gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDF263201CA7370700133389 /* Citadis_one_gong.mp3 */; };
+		ED0196641CB09E0E001740B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0A74AC1CB0975200F8BC2E /* LaunchScreen.xib */; };
+		ED42BB4C1CAA2B10004A77A5 /* A_Class_one_gongl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED42BB491CAA2B10004A77A5 /* A_Class_one_gongl.mp3 */; };
+		ED42BB4D1CAA2B10004A77A5 /* Citadis_one_gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED42BB4A1CAA2B10004A77A5 /* Citadis_one_gong.mp3 */; };
+		ED42BB501CAA2BC0004A77A5 /* DS-DIGII.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED42BB4F1CAA2BC0004A77A5 /* DS-DIGII.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,9 +106,9 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		ED6575D31CA73A4C0061EDC5 /* PBXContainerItemProxy */ = {
+		ED42BB471CAA2B05004A77A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C2C6F2BA1BD0471AA48E5928 /* RNSound.xcodeproj */;
+			containerPortal = FB004C8900D343799F70A564 /* RNSound.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 19825A1E1BD4A89800EE0337;
 			remoteInfo = RNSound;
@@ -130,18 +130,18 @@
 		13B07F961A680F5B00A75B9A /* tramsimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tramsimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = tramsimulator/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = tramsimulator/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = tramsimulator/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tramsimulator/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tramsimulator/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		C2C6F2BA1BD0471AA48E5928 /* RNSound.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
-		E09D5691CE7B436B8B663FF5 /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSound.a; sourceTree = "<group>"; };
-		ED6575B01CA738300061EDC5 /* DS-DIGII.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGII.TTF"; sourceTree = "<group>"; };
-		EDF2631F1CA7370700133389 /* A_Class_one_gongl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A_Class_one_gongl.mp3; sourceTree = "<group>"; };
-		EDF263201CA7370700133389 /* Citadis_one_gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Citadis_one_gong.mp3; sourceTree = "<group>"; };
+		B7A3D1CED38A477299F92F67 /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSound.a; sourceTree = "<group>"; };
+		ED0A74AD1CB0975200F8BC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = tramsimulator/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED42BB491CAA2B10004A77A5 /* A_Class_one_gongl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A_Class_one_gongl.mp3; sourceTree = "<group>"; };
+		ED42BB4A1CAA2B10004A77A5 /* Citadis_one_gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Citadis_one_gong.mp3; sourceTree = "<group>"; };
+		ED42BB4F1CAA2BC0004A77A5 /* DS-DIGII.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGII.ttf"; sourceTree = "<group>"; };
+		FB004C8900D343799F70A564 /* RNSound.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +166,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				63CFAE7081EE4FD89AE0D5C0 /* libRNSound.a in Frameworks */,
+				69E42B1EC9A741CF955682A0 /* libRNSound.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,15 +249,15 @@
 		13B07FAE1A68108700A75B9A /* tramsimulator */ = {
 			isa = PBXGroup;
 			children = (
-				ED6575B01CA738300061EDC5 /* DS-DIGII.TTF */,
-				EDF2631F1CA7370700133389 /* A_Class_one_gongl.mp3 */,
-				EDF263201CA7370700133389 /* Citadis_one_gong.mp3 */,
+				ED42BB4F1CAA2BC0004A77A5 /* DS-DIGII.ttf */,
+				ED42BB491CAA2B10004A77A5 /* A_Class_one_gongl.mp3 */,
+				ED42BB4A1CAA2B10004A77A5 /* Citadis_one_gong.mp3 */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				ED0A74AC1CB0975200F8BC2E /* LaunchScreen.xib */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = tramsimulator;
@@ -292,7 +292,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				C2C6F2BA1BD0471AA48E5928 /* RNSound.xcodeproj */,
+				FB004C8900D343799F70A564 /* RNSound.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -326,10 +326,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED6575C61CA73A4C0061EDC5 /* Products */ = {
+		ED42BB3A1CAA2B05004A77A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED6575D41CA73A4C0061EDC5 /* libRNSound.a */,
+				ED42BB481CAA2B05004A77A5 /* libRNSound.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -441,8 +441,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = ED6575C61CA73A4C0061EDC5 /* Products */;
-					ProjectRef = C2C6F2BA1BD0471AA48E5928 /* RNSound.xcodeproj */;
+					ProductGroup = ED42BB3A1CAA2B05004A77A5 /* Products */;
+					ProjectRef = FB004C8900D343799F70A564 /* RNSound.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -524,11 +524,11 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		ED6575D41CA73A4C0061EDC5 /* libRNSound.a */ = {
+		ED42BB481CAA2B05004A77A5 /* libRNSound.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNSound.a;
-			remoteRef = ED6575D31CA73A4C0061EDC5 /* PBXContainerItemProxy */;
+			remoteRef = ED42BB471CAA2B05004A77A5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -545,11 +545,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6575B11CA738300061EDC5 /* DS-DIGII.TTF in Resources */,
+				ED0196641CB09E0E001740B0 /* LaunchScreen.xib in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				EDF263221CA7370700133389 /* Citadis_one_gong.mp3 in Resources */,
-				EDF263211CA7370700133389 /* A_Class_one_gongl.mp3 in Resources */,
+				ED42BB4D1CAA2B10004A77A5 /* Citadis_one_gong.mp3 in Resources */,
+				ED42BB501CAA2BC0004A77A5 /* DS-DIGII.ttf in Resources */,
+				ED42BB4C1CAA2B10004A77A5 /* A_Class_one_gongl.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,13 +601,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+		ED0A74AC1CB0975200F8BC2E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B07FB21A68108700A75B9A /* Base */,
+				ED0A74AD1CB0975200F8BC2E /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = tramsimulator;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -662,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -680,6 +680,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,

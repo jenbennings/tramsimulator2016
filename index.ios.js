@@ -36,7 +36,7 @@ class tramsimulator extends React.Component {
       if (error) {
         return currentValue;
       } else {
-        return currentValue + 1;
+        return (currentValue || 0) + 1;
       }
     });
   }
