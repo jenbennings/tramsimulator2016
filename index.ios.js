@@ -5,11 +5,12 @@ const { AppRegistry, Text, Image, TouchableHighlight, View } = React;
 const Firebase = require('firebase');
 const Sound = require('react-native-sound');
 const DingToggle = require('./components/DingToggle');
+const Header = require('./components/Header');
 const styles = require('./styles/ios.js');
 
+import Dimensions from 'Dimensions';
 
 class tramsimulator extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -79,7 +80,7 @@ class tramsimulator extends React.Component {
             <Image style={styles.bolt} source={require('./bolt.png')} />
           </View>
         </View>
-        <Image style={styles.header} source={require('./logo.png')} />
+        <Header />
         <View style={styles.dingContainer}>
           <View style={styles.toggleContainer}>
             <View style={styles.toggleTitleContainer}>
@@ -109,7 +110,6 @@ class tramsimulator extends React.Component {
       </View>
     )
   }
-
 }
 
 AppRegistry.registerComponent('tramsimulator', () => tramsimulator);

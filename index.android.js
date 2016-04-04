@@ -4,6 +4,7 @@ const React = require('react-native');
 const { AppRegistry, Text, Image, TouchableHighlight, View } = React;
 const Sound = require('react-native-sound');
 const DingToggle = require('./components/DingToggle');
+const Header = require('./components/Header');
 const styles = require('./styles/android.js');
 
 
@@ -63,7 +64,7 @@ class tramsimulator extends React.Component {
             <Image style={styles.bolt} source={require('./bolt.png')} />
           </View>
         </View>
-        <Image style={styles.header} source={require('./logo.png')} />
+        <Header />
         <View style={styles.dingContainer}>
           <View style={styles.toggleContainer}>
             <View style={styles.toggleTitleContainer}>
