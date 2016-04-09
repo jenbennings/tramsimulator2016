@@ -47,15 +47,6 @@ var styles = StyleSheet.create({
     textAlign: 'center',
     backgroundColor: 'transparent'
   },
-  dingsShadow: {
-    fontSize: 24,
-    color: '#737373',
-    textAlign: 'center',
-    position: 'absolute',
-    top: 7,
-    left: 1,
-    right: 0
-  },
   button: {
     alignItems: 'center',
     justifyContent: 'center',
@@ -100,16 +91,6 @@ var styles = StyleSheet.create({
   toggleTitle: {
     fontSize: 12,
     color: '#D3D3D3'
-  },
-  counterShadow: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    height: 2,
-    width: 180,
-    resizeMode: 'contain',
-    borderRadius: 2
   },
   counterTitle: {
     fontSize: 12,

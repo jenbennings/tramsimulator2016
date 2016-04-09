@@ -110,8 +110,8 @@ var styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: 2,
-    width: 180,
-    resizeMode: 'contain',
+    width: (Dimensions.get('window').height >= 568) ? 260 : 180,
+    resizeMode: 'cover',
     borderRadius: 2
   },
   counterTitle: {
